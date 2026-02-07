@@ -142,14 +142,14 @@ export default async function HomePage() {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link href="/shop?category=beer" className="group relative h-80 rounded-2xl overflow-hidden shadow-md">
-              <Image src="https://images.unsplash.com/photo-1600262174360-6421570d5885?q=80&w=600&auto=format&fit=crop" alt="Cold Beer" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+              <Image src="/beerCider.jpeg" alt="Cold Beer" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
               <div className="absolute bottom-6 left-6 text-white">
-                <div className="flex items-center gap-2 mb-2 text-amber-400">
-                  <Beer size={20} />
-                  <span className="text-xs font-bold uppercase tracking-wider">The After Work</span>
-                </div>
-                <h3 className="text-2xl font-display font-bold">Beers & Ciders</h3>
+              <div className="flex items-center gap-2 mb-2 text-amber-400">
+                <Beer size={20} />
+                <span className="text-xs font-bold uppercase tracking-wider">The After Work</span>
+              </div>
+              <h3 className="text-2xl font-display font-bold">Beers & Ciders</h3>
               </div>
             </Link>
             <Link href="/shop?category=spirits" className="group relative h-80 rounded-2xl overflow-hidden shadow-md">
